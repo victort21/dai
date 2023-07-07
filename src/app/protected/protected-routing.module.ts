@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'begin',
+    path: '',
     loadChildren: () => import('./indicadores/indicadores.module').then(m => m.IndicadoresModule),
   },
 ];

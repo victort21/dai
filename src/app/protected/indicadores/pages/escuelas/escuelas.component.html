@@ -1,1 +1,54 @@
-<p>escuelas works!</p>
+
+<div class="table-responsive scrollbar">
+  <table class="table table-striped overflow-hidden">
+    <thead>
+      <tr class="btn-reveal-trigger">
+        <th scope="col">No.</th>
+        <th scope="col">Indicator</th>
+        <th scope="col">Target LOP</th>
+        <th scope="col">Target Y6</th>
+        <th scope="col">Q24 Anual</th>
+        <th scope="col">Cumulative Year 6</th>
+        <th scope="col">% Achieved against yearly target</th>
+        <th scope="col">Cumulative LOP</th>
+        <th scope="col">Cumulative LOP</th>
+        <th scope="col">Comments</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="btn-reveal-trigger" *ngFor="let indicator of indicadores">
+        <td>{{indicator.indicador_id}}</td>
+        <td>{{indicator.indicador_nombre}}</td>
+        <td>{{indicator.target_lop}}</td>
+        <td>{{indicator.target_lop_alcanzado}}</td>
+        <td>{{indicator.target_anual}}</td>
+        <td>46</td>
+        <td>95.83%</td>
+        <td>46</td>
+        <td>64.79%</td>
+        <td>
+          <p class="fw-bold">
+            {{indicator.descripcion_titulo}}:
+            <span class="fw-normal">
+              {{indicator.descripcion_contenido}}
+            </span>
+          </p>
+
+          <div *ngFor="let grupo of indicator.grupo">
+            <p class="fw-bold">
+              {{grupo.grupo_nombre | titlecase}}
+              <span class="fw-normal">{{grupo.grupo_descripcion}}</span>
+            </p> 
+  
+            <div *ngFor="let item of grupo.agrupado">
+              <p>
+                {{item.titulo}}: {{item.subtitulo}}
+              </p>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
