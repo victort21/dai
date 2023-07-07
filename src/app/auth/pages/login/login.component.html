@@ -1,15 +1,29 @@
 
-<div class="min-vh-100 d-flex flex-column justify-content-center align-items-center">
-  <div class="card w-50 mx-auto">
+<div class="min-vh-100 d-flex flex-column justify-content-center">
+  <div class="card w-sm-50 w-50 mx-auto">
     <div class="card-body p-4 p-sm-5">
       <div class="row flex-between-center mb-2">
       </div>
-      <form>
+      <form
+        [formGroup]="authForm"
+        (ngSubmit)="onSubmit()"
+      >
+        <h2 class="mb-3">Log in</h2>
         <div class="mb-3">
-          <input class="form-control" type="email" placeholder="Email address" />
+          <input
+            type="text"
+            class="form-control"
+            formControlName="user"
+            placeholder="User"
+          />
         </div>
         <div class="mb-3">
-          <input class="form-control" type="password" placeholder="Password" />
+          <input
+            type="password"
+            class="form-control"
+            formControlName="password"
+            placeholder="Password"
+          />
         </div>
         <div class="row flex-between-center">
           <div class="col-auto">
