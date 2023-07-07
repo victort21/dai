@@ -14,6 +14,10 @@ const routes: Routes = [
       {
         path: 'olvide-password',
         component: ForgotPasswordComponent,
+      },
+      {
+        path: '**',
+        redirectTo: 'login',
       }
     ]
   }
