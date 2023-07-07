@@ -1,0 +1,103 @@
+{
+  "titulo": "Consulta existosa",
+  "descripcion": "",
+  "contenido": [
+    {
+      "indicador_id": "1",
+      "bloque_id": "1",
+      "bloque_nombre": "Activity Goal: Address SBV that impedes the delivery of education and its goals of access, retention, and learning and use education and school processes to contribute to violence prevention in target communities.",
+      "indicador_numero": "1.1",
+      "indicador_nombre": "Number of learning environments supported by USG assistance that have improved safety, according to locally-defined criteria.",
+      "indicador_estandar_id": "1",
+      "indicador_estandar_numero": "ES-1.3",
+      "target_lop": 71,
+      "target_anual": "N/A",
+      "target_lop_alcanzado": 48,
+      "descripcion_titulo": "Cumulative Year 6",
+      "descripcion_contenido": "This indicator represents the number of school that improved their safety according the locally-defined criteria.",
+      "grupo": [
+        {
+          "grupo_nombre": "municipalities",
+          "grupo_descripcion": "",
+          "grupo_url": "",
+          "agrupado": [
+            {
+              "titulo": "Choloma",
+              "subtitulo": "3 schools",
+              "observaciones": "",
+              "url": ""
+            },
+            {
+              "titulo": "Distrito Central",
+              "subtitulo": "28 schools",
+              "observaciones": "",
+              "url": ""
+            },
+            {
+              "titulo": "La Ceiba",
+              "subtitulo": "8 schools",
+              "observaciones": "",
+              "url": ""
+            },
+            {
+              "titulo": "San Pedro Sula",
+              "subtitulo": "7 schools",
+              "observaciones": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "grupo_nombre": "Administration",
+          "grupo_descripcion": "",
+          "grupo_url": "",
+          "agrupado": [
+            {
+              "titulo": "Public",
+              "subtitulo": "46 schools",
+              "observaciones": "",
+              "url": ""
+            },
+            {
+              "titulo": "Private",
+              "subtitulo": "0 schools",
+              "observaciones": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "grupo_nombre": "Area",
+          "grupo_descripcion": "",
+          "grupo_url": "",
+          "agrupado": [
+            {
+              "titulo": "Rura",
+              "subtitulo": "2 schools",
+              "observaciones": "",
+              "url": ""
+            },
+            {
+              "titulo": "Urban",
+              "subtitulo": "44 schools",
+              "observaciones": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "grupo_nombre": "LOP",
+          "grupo_descripcion": "Last Update September 30, 2022",
+          "grupo_url": "",
+          "agrupado": []
+        },
+        {
+          "grupo_nombre": "Source",
+          "grupo_descripcion": "Asegurando data September 30, 2022",
+          "grupo_url": "",
+          "agrupado": []
+        }
+      ]
+    }
+  ]
+}
